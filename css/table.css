@@ -1,0 +1,310 @@
+@media screen and (max-device-width: 1200px) and (min-device-width: 815px) {
+  * {
+    margin: 0px;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+  body {
+    width: 900px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40;
+  }
+  .flex {
+    display: flex;
+  }
+  #nav-bar {
+    display: flex;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+  }
+  #banner {
+    position: relative;
+    text-align: center;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    min-height: 100vh;
+  }
+  h1 {
+    font-size: 4rem;
+    color: white;
+  }
+  .Name-specialized {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    justify-items: center;
+  }
+  @media (max-width: 1200px) {
+    #banner {
+      min-height: 30vh;
+    }
+    h1 {
+      font-size: calc(1.525rem + 3.3vw);
+    }
+  }
+
+  #nav-bar {
+    text-align: center;
+  }
+  /* Design banner */
+  .banner {
+    position: relative;
+    text-align: center;
+  }
+
+  /* Design navbar */
+  #nav-bar {
+    background-color: white;
+    overflow: hidden;
+  }
+  #nav-bar a {
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  #nav-bar i {
+    border-left: 1px solid rgb(241, 241, 241);
+    border-right: 1px solid rgb(241, 241, 241);
+  }
+  #nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  #nav-bar a.active {
+    background-color: #04aa6d;
+    color: white;
+  }
+  i {
+    font-size: 24px;
+    color: rgb(25, 159, 216);
+    justify-content: center;
+  }
+  #nav-bar {
+    justify-content: center;
+  }
+  /* Desin description and contact */
+  .grib-container {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 400px;
+  }
+  .grib-container-left {
+    height: 150px;
+    padding-left: 70px;
+    padding-right: 20px;
+  }
+  .grib-container-left h1 {
+    font-size: 2.5rem;
+    color: black;
+  }
+  .grib-container-right {
+    height: 150px;
+    padding-left: 20px;
+  }
+  .grib-container-right h1 {
+    font-size: 2.5rem;
+    color: black;
+  }
+  /* desin skill */
+  .container-skill {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 380px 380px;
+    grid-template-rows: 700px;
+    gap: 10px;
+  }
+  .container_h1 {
+    display: grid;
+    grid-template-columns: 300px 100px;
+  }
+  .container_h1 i {
+    font-size: 32px;
+    padding-top: 10%;
+  }
+  .item1 {
+    background-color: rgb(230, 231, 231);
+    height: 700px;
+  }
+  .item2 {
+    background-color: rgb(230, 231, 231);
+    padding-left: 5%;
+  }
+  .item3 {
+    background-color: rgb(230, 231, 231);
+    grid-area: 2/2/1/2;
+    height: 350px;
+  }
+  .item4 {
+    background-color: rgb(230, 231, 231);
+    grid-area: 3/1/3/2;
+  }
+  .item5 {
+    background-color: rgb(230, 231, 231);
+    padding-left: 5%;
+    height: 350px;
+  }
+  .item6 {
+    background-color: rgb(230, 231, 231);
+    padding-left: 5%;
+    grid-area: 2/2/2/1;
+  }
+  .container-skill h1 {
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+  .ic-toolbox {
+    padding-left: 15%;
+  }
+  .ic-pencil {
+    padding-left: 15%;
+  }
+  .ic-telescope {
+    padding-left: 15%;
+  }
+  .ic-mic {
+    padding-left: 15%;
+  }
+  .ic-tools-2 {
+    padding-left: 15%;
+  }
+  .progress {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .progress2 {
+    background: rgb(243, 243, 243);
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .sothich {
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px;
+    grid-template-rows: 40px;
+    gap: 15px;
+    padding-left: 8%;
+  }
+  .sothich i {
+    padding-right: 3%;
+    font-size: 28px;
+  }
+  /* Design Chung chi - giai thuong */
+  #certificate .container {
+    max-width: 1000px;
+  }
+  #certificate .section-title {
+    width: 100px;
+  }
+  .chungchi {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 180px 180px;
+  }
+  .chungchi img {
+    height: 125px;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40;
+  }
+  .Cert_WEB {
+    border-bottom: 1px solid #d6c08d;
+    display: block;
+    height: 300px;
+  }
+  .info_WEB {
+    padding-top: 8%;
+  }
+  .Cert_PRF {
+    border-bottom: 1px solid #d6c08d;
+
+    display: block;
+    height: 300px;
+  }
+  .info_PRF {
+    padding-top: 8%;
+    padding-left: 8%;
+    border-left: 1px solid #d6c08d;
+  }
+  .imgPRF {
+    border-left: 1px solid #d6c08d;
+  }
+  .Cert_DBI {
+    padding-top: 30%;
+    display: grid;
+    display: block;
+    height: 300px;
+  }
+  .info_DBI {
+    padding-top: 8%;
+  }
+  /* Design Dự Án */
+  .duan {
+    padding-top: 10%;
+    height: 700px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px;
+    grid-gap: 10px;
+  }
+  .timework {
+    width: 280px;
+    display: grid;
+    grid-template-columns: 55px 100px 120px;
+    grid-template-rows: 40px;
+    grid-gap: 10px;
+    padding-left: 5%;
+  }
+  .duan1 table {
+    text-align: left;
+  }
+  .timework p {
+    color: white;
+    background-color: #199cdb;
+    border-radius: 36%;
+    width: 35px;
+    height: 25px;
+    padding-top: 5%;
+    text-align: center;
+  }
+  .borderr {
+    border: 1px solid rgb(241, 241, 241);
+  }
+  .bortbl {
+    border: 1px solid rgb(241, 241, 241);
+  }
+  .timework span {
+    padding-top: 5%;
+  }
+  /*design footer*/
+  .footer-des {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 15px 15px 15px;
+    grid-gap: 50px;
+    justify-content: center;
+  }
+  .titel_duan {
+    border: 1px solid rgb(241, 241, 241);
+  }
+  .timework i {
+    color: black;
+  }
+}
